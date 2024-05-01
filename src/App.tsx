@@ -1,10 +1,8 @@
-import { LandingPage } from './pages/landing-page/LandingPage';
+import { Router, Routes, Route, Outlet } from 'react-router';
 
 function App() {
   return (
-    <div className='h-full w-full'>
-      <LandingPage />
-    </div>
+    <Outlet/>
   );
 }
 
